@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 1500px;
+    background: #b6acd1;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #b6acd1, transparent);
+    z-index: 10000;
+}
+
+section:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to top, #b6acd1, transparent);
+    z-index: 10000;
+    mix-blend-mode: color;
+}
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+header {
+    background-color:#401F68;
+    color:#ffffff;
+    text-align:center;
+    padding:5px;
+    width:1190;
+}
+
+/* START HORIZONTAL MENU*/
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #a3a3c2;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #000000;
+  }
+
+  #title-text {
+    position: relative;
+    color: #fff;
+    font-size: 10em;
+    z-index: 1;
+  }
+
+#subtitle{
+    position: relative;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+  }
+
+.th {
+    position: absolute;
+}
+
+/* .b4a {
+    height: 300px;
+    width: 300px;
+    background-color: #b6acd1;
+} */
+
+#c1 {
+    float: left;
+    font-size: 1.5em;
+    position: relative;
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    align-items: left;
+
+}
+
+#t {
+    color: #fff;
+    font-size: 2em;
+    padding: 5px;
+}
+
+
+#howtowatch {
+
+    width: 500px;
+    float:left;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color:#401F68;
+    margin: 10px;
+    clear: both;
+  }
+
+#chart {
+    width: 60%;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    display: inline-block;
+}
+
+#chart2 {
+    float: center;
+    padding-left: 20%;
+    clear: both;
+}
+
+.timeline {
+    float: center;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#quiz {
+    clear: both;
+    
+    border-style:solid;
+    float: center;
+    margin: 10px;
+    padding: 25px;
+    margin-left: 5%;
+}

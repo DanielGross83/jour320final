@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--TITLE INFORMATION -->
+
+    <title>Game Time: Northwestern's New Gaming Lounge</title>
+
+  <!-- META -->
+  
+      <meta charset="UTF-8">
+      <meta name="keywords" content="Medill, Journalism, keywords for the story go here">
+      <meta name="description" content="Medill Journalism 320 final project">
+      <meta name="author" content="Daniel Gross, Russel Leung, Sam Biggs">
+      <meta http-equiv="refresh" content="500">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+  <!--FAVICON -->
+    <link rel="icon" type="image/x-icon" href="https://common.northwestern.edu/favicon.ico"/>
+
+    <link rel="stylesheet" href="test.css">
+
+    <script defer src="test.js"></script>
+
+    <!--Jquery-->
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+    <script>
+$( function() {
+    $( "#accordion" ).accordion();
+} );
+    </script>
+
+</head>
+
+
+<body>
+    <div id="th">
+    <header>
+        <h1>MEDILL NEWS 847</h1>
+    </header>
+
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    </div>
+    <section>
+        <img src="splash.png" id="splash">
+        <h2 id="title-text">Game Time</h2>
+    </section>
+    <script type="text/javascript">
+        let splash = document.getElementById("splash");
+        let t_text = document.getElementById("title-text");
+
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+
+            splash.style.top = value*.25 + 'px';
+            // text.style.top = value * 0.5 + 'px'  
+        })
+
+    </script>
+    <section>
+        <h3 id="subtitle">Norris University Center’s newest addition is a sparkling new gaming lounge.
+            Will it build community?</h3>
+    </section>
+
+    <section>
+        <img src="splash2.png" id="im2">
+    </section>
+    <script type="text/javascript">
+        let im2 = document.getElementById("im2");
+        let c1 = document.getElementById("c1");
+
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+
+            im2.style.top = -250+value*.15+'px';
+
+        })
+
+    </script>
+    <section>
+        <div>
+        <p id="t"> Deep in Northwestern University’s Norris University Center, there is an underground game room packed with amusements for community members to enjoy. 
+            There’s classic pastimes like billiards, arcade basketball and foosball, many of which have been there since the game room first opened in 1972. 
+            But these vintage activities have a shiny new neighbor: a state-of-the-art computer gaming space.
+        </p>
+        <p id="t">The Nexus Gaming Lounge, which opened Oct. 20, provides NU students and other visitors with 10 speedy Lenovo Legion computers, sleek gaming chairs and the opportunity to build community with their peers in the virtual arena. 
+        According to Linda Luk, Norris assistant director for programs, plans for the lounge began in summer 2022, when an NU student parent offered to donate $60,000 in office furniture through their company, Forward Space, to help fund a computer gaming space. 
+        Norris started construction on the lounge, which formerly held pingpong tables, this summer and wrapped up in early fall. 
+        </p>
+        </div>
+        
+    </section>
+
+    <div className="b4a">
+        <div class="flourish-embed flourish-photo-slider" data-src="visualisation/15995386">
+            <script src="https://public.flourish.studio/resources/embed.js">
+            </script>
+        </div>
+  </div>
+  <section>
+    <div>
+    <p id="t"> “Gaming has always been a part of Norris, creating a space for wellness and development for students to just hang out and have fun,” Luk said. 
+    </p>
+    <p id="t">The computers currently offer five games: Apex Legends, League of Legends, Overwatch 2, Rocket League and Valorant. Like the lounge as a whole, the games are free.
+    </p>
+    <p id="t">
+        Norris Executive Director Corbin Smyth said the student center spent about $140,000 to build the lounge. In order to optimize the gaming experience, Norris invested in amenities like furniture, carpeting and a new electrical supply to help power the computers.
+    </p>
+
+
+    </div>
+</section>
+
+
+    <div id="howtowatch">
+        <p style="text-align: center;font-size: 20px; color: #ffffff"><strong>Games Offered</strong></p>
+
+        <div id="accordion">
+
+            <h3 style="background-color: #a3a3c2;">League of Legends</h3>
+            <div>
+                <p>League of Legends, commonly referred to as League, is a 2009 multiplayer online battle arena video game developed and published by Riot Games.
+                    In the game, two teams of five players battle in player-versus-player combat, each team occupying and defending their half of the map. 
+                </p>
+            </div>
+            <h3 style="background-color: #a3a3c2;">Overwatch 2</h3>
+            <div>
+                <p>Overwatch 2 is a 2022 first-person shooter game developed by Blizzard Entertainment.
+                    Players are split into two teams of 5 and select a "hero" from a roster of 35 characters, each with a unique set of skills, made up of active, passive, and ultimate abilities.
+                    The teams then engage in head to head combat. 
+                </p>
+            </div>
+            <h3 style="background-color: #a3a3c2;">Valorant</h3>
+            <div>
+                <p>Valorant is a team-based first person tactical hero shooter developed by Riot Games. Players play as one of a set of Agents, assigned to either the attacking or defending team with each team having five players on it. 
+                   Agents have unique abilities, each requiring charges, as well as a unique ultimate ability that requires charging through kills, deaths, orbs, or objectives.</p>
+            </div>
+            <h3 style="background-color: #a3a3c2;">Apex Legends</h3>
+            <div>
+                <p>Apex Legends is a battle royale-hero shooter game developed by Respawn Entertainment and published by Electronic Arts. 
+                    Before the match, players form into two- or three-player squads, and select from "Legends" with special abilities. The game has two modes, 
+                    "Battle Royale" where three-person squads or two-person duos land on an island and search for weapons and supplies before attempting to defeat all other players in combat. 
+                    In "Arenas", players form into squads and fight against another squad in a 3v3 team deathmatch over a series of rounds to determine a winner.
+                </p>
+            </div>
+            <h3 style="background-color: #a3a3c2;">Rocket League</h3>
+            <div>
+                <p>Rocket League is a vehicular soccer video game developed by Psyonix, released in 2015.
+                   In it, up to eight players are assigned to each of the two teams, using rocket-powered vehicles to hit a ball into their opponent's goal and score points over the course of a match. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="chart">  
+        <div class="flourish-embed flourish-chart" data-src="visualisation/15996902" data-height="60vh">
+           <script src="https://public.flourish.studio/resources/embed.js">
+           </script>
+        </div>
+    </div>
+
+
+<section>
+    
+    <img src="splash3.png" id="im3">
+</section>
+<script type="text/javascript">
+    let im3 = document.getElementById("im3");
+
+    window.addEventListener('scroll', function(){
+        var value = window.scrollY;
+
+        im3.style.top = -800+value*.15+'px';
+
+    })
+
+</script>
+
+<section>
+    <div>
+        <p id="t"> Weinberg junior Nam Vuong usually visits the lounge once or twice a week to play League of Legends. The computers, he said, are “top-notch.”
+        </p>
+        <p id="t">“It's a good place; it feels like my childhood,” Vuong said. “I always go to these gaming lounges at home and start gaming, and it's like that.”
+        </p>
+        <p id="t">
+        To help develop the lounge, Luk said, Norris worked closely with NU’s Esports Club, which provided input on which computer model to purchase as well as how peer institutions’ gaming spaces would compare to Nexus.
+        </p>
+
+    </div>
+    </section>
+        <div id="chart2">
+            <div class="flourish-embed flourish-chart" data-src="visualisation/15985624" data-width='60%' data-height="75vh">
+            <script src="https://public.flourish.studio/resources/embed.js">
+            </script>
+        </div>
+        </div>
+
+
+<section>
+    <div>
+        <p id="t"> Andres Rojas, a Weinberg senior and external president of the Esports Club, said the gaming lounge has given members a space to not only compete but also bond with one another in person. 
+            Previously, he said, club members had to play in their dorms or apartments, and some struggled to afford the newest gaming equipment. 
+            Now, the club’s gaming teams can practice in the lounge several times a week.
+        </p>
+        <p id="t"> Compared to other Big Ten schools, Rojas said, NU’s Esports Club has limited resources, especially as it’s completely student-run. 
+            But the club’s teams are still finding success: The junior varsity League of Legends squad, for example, won its league this season with an undefeated record. 
+        </p>
+        <p id="t">
+            Rojas hopes the lounge boosts esports’s visibility on campus.
+        </p>
+
+    </div>
+    </section>
+    <section>
+    
+        <img src="splash4.png" id="im4">
+    </section>
+    <script type="text/javascript">
+        let im4 = document.getElementById("im4");
+    
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+    
+            im4.style.top = -1150+value*.15+'px';
+    
+        })
+    
+    </script>
+
+<section>
+    <div>
+        <p id="t"> “I really do think the students are seeing the presence of esports now, especially with the Nexus Lounge,” Rojas said. “We do hope that admin does see just how prevalent the video game community is here at Northwestern.”
+        </p>
+        <p id="t"> At the same time, the Esports Club and Norris see the lounge as a space not just for hardcore gamers, but for all students to enjoy. That ethos is built into its name as well: “Nexus,” Luk said, refers to building connections, and she hopes the space will appropriately bring people together.
+        </p>
+        <p id="t">
+        Part of that mission is ensuring the lounge is accessible to students. Smyth said although Norris hopes to keep the space free to use, it will have to figure out ways to generate revenue — like renting out the lounge during summers — in order to replace equipment that breaks down in the future. He added that Norris is still looking to improve the lounge with upgrades like better lighting and more computers.
+
+        </p>
+
+    </div>
+    </section>
+    <div className="timeline">
+        <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1cV54pUeCyp7C7kPlKkPrY1wypvCnxFJeDdJ8w7aL1oQ&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='750' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe> 
+    </div>
+
+<section>
+    <div>
+        <p id="t"> The Esports Club and the gaming community as a whole, Rojas said, often confront the misconception that they only welcome experienced, competitive players. He wants the Nexus Gaming Lounge to show that gaming is for everyone.
+        </p>
+        <p id="t"> “Video games, I really have always seen it just as a good way to have fun, right?” Rojas said. “As a good way to pass the time, just to connect with people, connect with friends and just make memories.”
+        </p>
+    </div>
+    </section>
+    <section>
+    
+        <img src="splash5.png" id="im5">
+    </section>
+    <script type="text/javascript">
+        let im5 = document.getElementById("im5");
+    
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+    
+            im5.style.top = -1650+value*.15+'px';
+    
+        })
+    
+    </script>
+
+
+    <iframe width='100%' height="750px" src="https://www.youtube.com/embed/wVnCKxPlm2g?si=xFV89aWrfPahqJqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <div id="quiz">
+        <div class="flourish-embed flourish-quiz" data-src="visualisation/15983890" data-width="90%" data-height="90vh"><script src="https://public.flourish.studio/resources/embed.js"></script></div> 
+
+    </div>
+<div >
+    <iframe src='https://flo.uri.sh/visualisation/16006287/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:750px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/16006287/?utm_source=embed&utm_campaign=visualisation/16006287' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+</div>
+</body>
+</html>
